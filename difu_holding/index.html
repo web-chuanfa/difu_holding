@@ -1,0 +1,645 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    <title>DF冰淇淋自动甜品站</title>
+    <meta name="keywords" content="DF冰淇淋自动甜品站">
+    <meta name="description" content="酷炫DF冰淇淋自动甜品站招募大咖加入科技未来！">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!--iphone设备中的safari私有meta标签，它表示：允许全屏模式浏览；-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!--phone的私有标签，它指定的iphone中safari顶端的状态条的样式；-->
+    <meta content="telephone=no" name="format-detection">
+    <link href="css/swiper.min.css" rel="stylesheet"/>
+    <link href="css/animate.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<!--加载页-->
+<div class="loadPage">
+    <img src="images/load.gif" class="load-img" alt=""/>
+    <div class="loading" style='opacity:0;'>
+        <p class="load-title">Loading…</p>
+        <progress id="loading" value="20" max="100"></progress>
+        <p class="load-pro"><span id="percent">20</span> %</p>
+    </div>
+</div>
+<!--加载页-end-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide page1">
+         <div class="page1 ani" swiper-animate-effect="pulse" swiper-animate-duration="5s" swiper-animate-delay="2s"></div>
+         <div class="p1bg1 top1 ani" swiper-animate-effect="fadeOutUpBig" swiper-animate-duration="3s" swiper-animate-delay="0.2s"></div>
+         <div class="p1bg1 top2 ani" swiper-animate-effect="fadeOutDownBig" swiper-animate-duration="3s" swiper-animate-delay="0.2s"></div>
+         <div class="p1bg2 bghg">
+             <img data-src="images/p1bg2.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.3s" >
+         </div>
+         <div class="p1text1 ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="1.3s"></div>
+         <div class="p1text2 ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="1.8s"></div>
+         <div class="p1text3 ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="2.3s"></div>
+         <div class="p1text4 ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="2.8s"></div>
+         <div class="p1guang ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="3.3s"></div>
+         <div class="p1text5 ani" swiper-animate-effect="typing" swiper-animate-duration="1s" swiper-animate-delay="3.8s"></div>
+       </div>
+        <div class="swiper-slide page2">
+         <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+             <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+         </div>
+         <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+             <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+         </div>
+         <div class="p2text1 bghg">
+             <img data-src="images/p2text1.png" class="swiper-lazy ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s" >
+         </div>
+         <div class="p2text2 bghg">
+             <img data-src="images/p2text2.png" class="swiper-lazy ani" swiper-animate-effect="scale" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s" >
+         </div>
+         <div class="p2bg2 bghg">
+             <img data-src="images/p2bg1.png" class="swiper-lazy ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="2s" >
+         </div>
+         <div class="p2text3 bghg">
+             <img data-src="images/p2text3.png" class="swiper-lazy ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2.5s" >
+         </div>
+         <div class="p2text4 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="0.5s" swiper-animate-delay="4.5s">
+             <img data-src="images/p2text4.png" class="swiper-lazy ani" swiper-animate-effect="scale" swiper-animate-duration="0.5s" swiper-animate-delay="3.5s" >
+         </div>
+         <div class="p2text5 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="0.5s" swiper-animate-delay="4.5s">
+             <img data-src="images/p2text5.png" class="swiper-lazy ani" swiper-animate-effect="scale" swiper-animate-duration="0.5s" swiper-animate-delay="3.6s" >
+         </div>
+         <div class="p2text6 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="0.5s" swiper-animate-delay="4.5s">
+             <img data-src="images/p2text6.png" class="swiper-lazy ani" swiper-animate-effect="scale" swiper-animate-duration="0.5s" swiper-animate-delay="3.7s" >
+         </div>
+        </div>
+        <div class="swiper-slide">
+         <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+             <img data-src="images/p3bg1.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+         </div>
+         <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+             <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+         </div>
+         <div class="p3text1 bghg">
+             <img data-src="images/p3text1.png" class="swiper-lazy ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >
+         </div>
+         <div class="p3text2 bghg">
+             <img data-src="images/p3text2.png" class="swiper-lazy ani" swiper-animate-effect="flipInY" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s" >
+         </div>
+         <div class="p3text3 bghg">
+             <img data-src="images/p3text3.png" class="swiper-lazy ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2.2s" >
+         </div>
+         <div class="page3 ani" swiper-animate-effect="typingH" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>
+        </div>
+        <div class="swiper-slide page4">
+         <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+             <img data-src="images/p3bg1.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+         </div>
+         <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+             <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+         </div>
+          <div class="ani p4-title1" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="0s">
+            <img src="images/p4-tit1.png" alt=""/></div>
+          <div class="ani p4-text1" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+            <img src="images/p4-text1.png" alt=""/></div>
+          <div class="ani p4-text2" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"></div>
+          <div class="ani p4-text3" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s">
+           <img src="images/p4-text3.png" alt=""/></div>
+          <div class="ani p4-text4" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.7s"></div>
+          <div class="ani p4-text5" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.4s">
+            <img src="images/p4-text5.png" alt=""/></div>
+          <div class="ani p4-text6" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.9s"></div>
+          <div class="ani p4-text7" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s">
+            <img src="images/p4-text7.png" alt=""/></div>
+          <div class="ani p4-text8" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2.1s"></div>
+          <div class="ani p4-text9" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2s">
+            <img src="images/p4-text9.png" alt=""/></div>
+          <div class="ani p4-text10" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s"></div>
+          <div class="ani p4-text11" swiper-animate-effect="pulse" swiper-animate-duration="0.5s" swiper-animate-delay="3s">
+            <img  class="ani" src="images/p4-text11.png" alt="" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s"/>
+          </div>
+        </div>
+        <div class="swiper-slide page5">
+           <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+           </div>
+           <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+           </div>
+           <div class="p5bg ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s"></div>
+           <div class="p5text1 bghg">
+               <img data-src="images/p5text1.png" class="swiper-lazy ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p5bg1 bghg">
+               <img data-src="images/p5bg1.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1.3s" >
+           </div>
+           <div class="p5text3box ani" swiper-animate-effect="pulse" swiper-animate-duration="1.2s" swiper-animate-delay="5s">
+              <div class="text">
+                <img data-src="images/p5text3_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.6s">
+              </div>
+              <div class="text">
+                <img data-src="images/p5text3_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.7s">
+              </div>
+              <div class="text">
+                <img data-src="images/p5text3_03.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.8s">
+              </div>
+              <div class="text">
+                <img data-src="images/p5text3_04.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.9s">
+              </div>
+              <div class="text">
+                <img data-src="images/p5text3_05.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.0s">
+              </div>
+              <div class="text">
+                <img data-src="images/p5text3_06.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.0s">
+              </div>
+           </div>
+           <div class="p5text4 bghg">
+               <img data-src="images/p5text4.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="3.6s" >
+           </div>
+        </div>
+        <div class="swiper-slide page6">
+           <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+           </div>
+           <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+           </div>
+           <div class="p6guang ani" swiper-animate-effect="typing" swiper-animate-duration="0.2s" swiper-animate-delay="0.5s"></div>
+           <div class="p6text1 bghg">
+               <img data-src="images/p6text1.png" class="swiper-lazy ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p6bg1 bghg">
+               <img data-src="images/p6bg1.png" class="swiper-lazy ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1.3s" >
+           </div>
+           <div class="p6bg2 bghg ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="2.4s"></div>
+           <div class="p6bg3 bghg">
+               <img data-src="images/p6bg3.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="2.2s" >
+           </div>
+           <div class="p6text2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="4s">
+               <img data-src="images/p6text2.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="3s" >
+           </div>
+           <div class="p6text3 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="4.2s">
+               <img data-src="images/p6text3.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="3.6s" >
+           </div>
+           <div class="p6text4 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="4.4s">
+               <img data-src="images/p6text4.png" class="swiper-lazy ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="3.6s" >
+           </div>
+        </div>
+        <div class="swiper-slide page7">
+           <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+           </div>
+           <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+           </div>
+           <div class="p7guang ">
+             <img data-src="images/p7guang.png" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p7text1 bghg">
+               <img data-src="images/p7text1.png" class="swiper-lazy ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p7bg1 bghg ani" swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="2.1s">
+               <img data-src="images/p7bg1.png" class="swiper-lazy ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1.3s" >
+           </div>
+           <div class="p7bg2 bghg ani" swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="2.4s">
+               <img data-src="images/p7bg2.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.8s" swiper-animate-delay="1.3s" >
+           </div>
+           <div class="p7bg3 bghg ani" swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="2.8s">
+               <img data-src="images/p7bg3.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1.3s" >
+           </div>
+           <div class="p7text2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="3s">
+               <img data-src="images/p7text2.png" class="swiper-lazy ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="2s" >
+           </div>
+           <div class="p7text3 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="3.5s">
+               <img data-src="images/p7text3.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s" >
+           </div>
+           <div class="p7text4 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="3.8s">
+               <img data-src="images/p7text4.png" class="swiper-lazy ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="2.7s" >
+           </div>
+           <div class="p7text5 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="4.1s">
+               <img data-src="images/p7text5.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="2.9s" >
+           </div>
+           <div class="p7text6 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="4.5s">
+               <img data-src="images/p7text6.png" class="swiper-lazy ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="3.1s">
+           </div>
+        </div> 
+        <div class="swiper-slide page8">
+           <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+           </div>
+           <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+           </div>
+           <div class="p8guang ani" swiper-animate-effect="pulse" swiper-animate-duration="3s" swiper-animate-delay="1.5s">
+             <img data-src="images/p8guang.png" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p8text1 bghg">
+               <img data-src="images/p8text1.png" class="swiper-lazy ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s" >
+           </div>
+           <div class="p8jiqibox">
+             <div class="p8jiqi bghg">
+               <div class="p8bgbox bghg ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+                 <div class="swiper-wrapper">
+                   <div class="swiper-slide"><img data-src="images/p8bg1.jpg" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"></div>  
+                   <div class="swiper-slide"><img data-src="images/p8bg2.jpg" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"></div>  
+                   <div class="swiper-slide"><img data-src="images/p8bg3.jpg" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"></div>  
+                   <div class="swiper-slide"><img data-src="images/p8bg4.jpg" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"></div>  
+                 </div>
+               </div>
+               <img data-src="images/p8jiqi.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s" >
+             </div>
+           </div>
+           <div class="p8text2box">
+             <div class="p8text2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="3s">
+               <img data-src="images/p8text2_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s" >
+             </div>
+             <div class="p8text2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="3.3s">
+               <img data-src="images/p8text2_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.3s" >
+             </div>
+             <div class="p8text2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="3.6s">
+               <img data-src="images/p8text2_03.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.6s" >
+             </div>
+           </div>
+        </div>
+        <div class="swiper-slide page9">
+           <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+           </div>
+           <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+           </div>
+           <div class="p9guang ">
+             <img data-src="images/p9guang.png" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p9text1 bghg">
+               <img data-src="images/p9text1.png" class="swiper-lazy ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p9jiqi bghg">
+               <img data-src="images/p9jiqi.png" class="swiper-lazy ani" swiper-animate-effect="fadeInS" swiper-animate-duration="1s" swiper-animate-delay="1s" >
+           </div>
+           <div class="p9line1 bghg ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>
+           <div class="p9line2 bghg ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="2.2s"></div>
+           <div class="p9line3 bghg ani" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s"></div>
+           <div class="p9num1 bghg">
+               <img data-src="images/p9num1.png" class="swiper-lazy ani" swiper-animate-effect="rotateIn" swiper-animate-duration=".5s" swiper-animate-delay="2.5s" >
+           </div>
+           <div class="p9num2 bghg">
+               <img data-src="images/p9num2.png" class="swiper-lazy ani" swiper-animate-effect="rotateIn" swiper-animate-duration=".5s" swiper-animate-delay="2.7s" >
+           </div>
+           <div class="p9num3 bghg">
+               <img data-src="images/p9num3.png" class="swiper-lazy ani" swiper-animate-effect="rotateIn" swiper-animate-duration=".5s" swiper-animate-delay="3s" >
+           </div>
+           <div class="p9text2 bghg">
+               <img data-src="images/p9text2.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.2s" >
+           </div>
+           <div class="p9text22 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="5s">
+               <img data-src="images/p9text22.png" class="swiper-lazy ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.7s" >
+           </div>
+           <div class="p9text3 bghg">
+               <img data-src="images/p9text3.png" class="swiper-lazy ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="3.2s" >
+           </div>
+           <div class="p9text33 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="5.2s">
+               <img data-src="images/p9text33.png" class="swiper-lazy ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="1s" swiper-animate-delay="3.7s" >
+           </div>
+        </div>
+        <div class="swiper-slide page10">
+           <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+           </div>
+           <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+           </div>
+           <div class="p10guang ani" swiper-animate-effect="typing" swiper-animate-duration="0.3s" swiper-animate-delay="0.8s"></div>
+           <div class="p10text1 bghg">
+               <img data-src="images/p10text1.png" class="swiper-lazy ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >
+           </div>
+           <div class="p10bg1 bghg">
+               <img data-src="images/p10bg1.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.5s" >
+           </div>
+           <div class="p10bg2 bghg">
+               <img data-src="images/p10bg2.png" class="swiper-lazy ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" >
+           </div>
+           <div class="p10bg3 bghg">
+               <img data-src="images/p10bg3.png" class="swiper-lazy ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1s" >
+           </div>
+           <div class="p10text2 bghg ani" swiper-animate-effect="typing" swiper-animate-duration="1s" swiper-animate-delay="2.2s"></div>
+        </div>
+        <div class="swiper-slide page11">
+            <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+             </div>
+             <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+             </div>
+            <div class="ani p11-xing" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                <div class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    <img src="images/p11-xing.jpg" alt="" width="100%" /></div>
+            </div>
+            <div class="ani p11-title1" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p11-tit1.png" alt="" /></div>
+            <div class="ani p11-text1" swiper-animate-effect="typing" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">
+                
+            </div>
+            <div class="ani p11-text2" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"><img src="images/p11-text2.png" alt="" /></div>
+            <div class="ani p11-text3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"><img src="images/p11-text3.png" alt="" /></div>
+            <div class="ani p11-text4" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.8s"><img src="images/p11-text4.png" alt="" /></div>
+            <div class="ani p11-text5" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.8s"><img src="images/p11-text5.png" alt="" /></div>
+            <div class="ani p11-text6" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2.1s"><img src="images/p11-text6.png" alt="" /></div>
+            <div class="ani p11-text7" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2.1s"><img src="images/p11-text7.png" alt="" /></div>
+            <div class="ani p11-text8" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2.4s"><img src="images/p11-text8.png" alt="" /></div>
+            <div class="ani p11-text9" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2.4s"><img src="images/p11-text9.png" alt="" /></div>
+            <div class="ani p11-text10" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2.7s"><img src="images/p11-text10.png" alt="" /></div>
+            <div class="ani p11-text11" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2.7s"><img src="images/p11-text11.png" alt="" /></div>
+        </div>
+        <div class="swiper-slide page12">
+            <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+            </div>
+            <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+             </div>
+            <div class="ani p12-xing" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                <div class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    <img src="images/p12-xing.jpg" alt="" width="100%" /></div>
+            </div>
+            <div class="ani p12-title1" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p12-tit1.png" alt="" /></div>
+            <div class="ani p12-text1" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p12-text1.png" alt="" /></div>
+            <div class="ani p12-text2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p12-text2.png" alt="" /></div>
+            <div class="ani p12-text3" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.3s"><img src="images/p12-text3.png" alt="" /></div>
+            <div class="ani p12-text4" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.3s"><img src="images/p12-text4.png" alt="" /></div>
+            <div class="ani p12-text5" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s"><img src="images/p12-text5.png" alt="" /></div>
+            <div class="ani p12-text6" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s"><img src="images/p12-text6.png" alt="" /></div>
+            <div class="ani p12-text7" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.9s"><img src="images/p12-text7.png" alt="" /></div>
+            <div class="ani p12-text8" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1.9s"><img src="images/p12-text8.png" alt="" /></div>
+        </div>
+        <div class="swiper-slide page13">
+            <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+             </div>
+             <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+             </div>
+            <div class="ani p13-xing" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s"><img src="images/p13-xing.jpg" alt="" /></div>
+            <div class="ani p13-title1" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p13-tit1.png" alt="" /></div>
+            <div class="ani p13xj" swiper-animate-effect="scale" swiper-animate-duration="0.3s" swiper-animate-delay="1s"><img src="images/p13xj.png" alt="" /></div>
+            <div class="ani p13-text1" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="2s"><img src="images/p13-text1.png" alt="" /></div>
+            <div class="ani p13-text2" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s"><img src="images/p13-text2.png" alt="" /></div>
+            <div class="ani p13-text3" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s"><img src="images/p13-text3.png" alt="" /></div>
+            <div class="ani p13-text4" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1s"><img src="images/p13-text4.png" alt="" /></div>
+        </div>
+        <div class="swiper-slide page14">
+            <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+            </div>
+            <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+            </div>
+            <div class="ani p14-title1" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"><img src="images/p14-tit1.png" alt="" /></div>
+            <div class="ani p14-title2" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"><img src="images/p14-tit2.png" alt="" /></div>
+            <div class="ani p14-title3" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"><img src="images/p14-tit3.png" alt="" /></div>
+            <div class="ani p14-text1" swiper-animate-effect="flipInY" swiper-animate-duration="1.5s" swiper-animate-delay="1s"><img src="images/p14-text1.png" alt="" /></div>
+            
+           
+            <div class="ani p14-text4" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2.3s"><img src="images/p14-text4.png" alt="" /></div>
+            <div class="ani p14-text5" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="2.3s"><img src="images/p14-text5.png" alt="" /></div>
+        </div> 
+        <div class="swiper-slide page16">
+           <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+           </div>
+           <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+               <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+           </div>
+           <div class="p16text1 bghg">
+               <img data-src="images/p16text1.png" class="swiper-lazy ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.6s" >
+           </div>
+           <div class="p16bg1 bghg">
+               <img data-src="images/p16bg1.png" class="swiper-lazy ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s" >
+           </div>
+           <div class="p16bg bghg">
+               <img data-src="images/p2bg.jpg" class="swiper-lazy ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" >
+           </div>
+            <div class="formbox">
+                <ul class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s">
+                    <li class="tex1">姓名：</li>
+                    <li class="tex2"><input type="text"  class="int" id="name" name="name" onKeyUp="value=value.replace(/[\uFF00-\uFFFF,0-9]/g,'')" required/></li>
+                </ul>
+                <ul class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="2.3s">
+                    <li class="tex1">手机：</li>
+                    <li class="tex2"><input type="tel"  class="int" id="tel" name="tel" maxlength="11" required/></li>
+                </ul>
+                <ul class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="2.6s">
+                    <li class="tex1">城市：</li>
+                    <li class="tex2"><input type="text"  class="int" id="region" name="region"/></li>
+                </ul>
+                <ul class="br5 subbtn br ani" swiper-animate-effect="scale" swiper-animate-duration="0.5s" swiper-animate-delay="2.8s">
+                    <a class="button"  onclick="test_btn()">提交</a>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-slide page15">
+         <div class="p2bg1 top1 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_01.png" class="swiper-lazy ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s" >
+         </div>
+         <div class="p2bg1 top2 bghg ani" swiper-animate-effect="pulse" swiper-animate-duration="4s" swiper-animate-delay="1.5s">
+                 <img data-src="images/p2bg_02.png" class="swiper-lazy ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s" >
+             </div>
+         <div class="ani p15-text1" swiper-animate-effect="typing" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+               
+         </div>
+            <!--div class="ani p15-title1" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"><img src="images/p15-tit1.png" alt="" /></div>
+            <div class="ani p15-title2" swiper-animate-effect="scale" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"><img src="images/p15-tit2.png" alt="" /></div>
+            <div class="ani p15-title3" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"><img src="images/p15-tit3.png" alt="" /></div-->
+         <div class="ani p15-01" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"><img src="images/p15-01.png" alt="" /></div>
+           <div class="p16text12 ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s">
+             <img src="images/p16text12.png" alt="" />
+           </div>
+            <div class="ani p15-text2" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="2s"><img src="images/p15-text2.png" alt="" /></div>
+            <div class="ani p15-text3" swiper-animate-effect="zoomInUp" swiper-animate-duration="1s" swiper-animate-delay="2.3s"><img src="images/p15-text3.png" alt="" /></div>
+        </div>
+
+       <!--page结束-->
+    </div>
+     <!-- <div class="swiper-pagination"></div> -->
+</div>
+
+<img src="images/web-swipe-tip.png" id="array">
+<div id="music_icon">
+    <img class="icon1 cur" src="images/yinfu.png" alt="" width="100%">
+    <img class="icon2" src="images/yinfu2.png" width="100%" alt="">
+</div>
+<audio id="page_music" src="images/bg.mp3" autoplay="autoplay" preload="auto" loop style="display: none;"></audio>
+
+<script src="js/zepto.min.js" type="text/javascript"></script>
+<script src="js/swiper-3.2.7.jquery.min.js" type="text/javascript"></script>
+<script src="js/swiper.animate1.0.2.min.js" type="text/javascript"></script>
+<script>
+    var swiper = new Swiper('.p8bgbox', {
+        // pagination: '.swiper-pagination',
+        effect: 'cube',
+        grabCursor: true,
+        autoplay:1500,
+        loop : true,
+        autoplayDisableOnInteraction: false
+    });
+</script>
+<script src="js/jweixin-1.0.0.js"></script>
+<script>
+  /*
+   * 注意：
+   * 1. 所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
+   * 2. 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+   * 3. 常见问题及完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+   *
+   * 开发中遇到问题详见文档“附录5-常见错误及解决办法”解决，如仍未能解决可通过以下渠道反馈：
+   * 邮箱地址：weixin-open@qq.com
+   * 邮件主题：【微信JS-SDK反馈】具体问题
+   * 邮件内容说明：用简明的语言描述问题所在，并交代清楚遇到该问题的场景，可附上截屏图片，微信团队会尽快处理你的反馈。
+   */
+  wx.config({
+    debug: false,
+    appId: 'wx3d69be63303f32f5',
+    timestamp: 1503722385,
+    nonceStr: 'zZWQox7oRplJ4PLV',
+    signature: 'c8000cb4eac8249a501a01134d69e34ebc141d8f',
+    jsApiList: [
+      // 所有要调用的 API 都要加到这个列表中
+    'onMenuShareTimeline',
+    'onMenuShareAppMessage',
+    'onMenuShareQQ',
+    'onMenuShareWeibo',
+    'onMenuShareQZone'
+    ]
+  });
+</script>
+
+
+<script src="js/main.js" type="text/javascript"></script>
+
+
+<script> 
+     //一般情况下，这样就可以自动播放了，但是一些奇葩iPhone机不可以 
+     document.getElementById('page_music').play(); 
+    //必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效 
+    document.addEventListener("WeixinJSBridgeReady", function () { 
+        document.getElementById('page_music').play(); 
+    }, false); 
+</script> 
+
+
+<script>
+//微信分享
+wx.ready(function () {
+    // 在这里调用 API
+    var shareInfo = {
+            image: 'http://www.zgliansuo.cn/event/dftjh/images/share.jpg',
+            url: '',
+            title: 'DF冰淇淋自动甜品站',//迪孚国际//摇滚三国麻辣e站          
+            desc: '酷炫DF冰淇淋自动甜品站招募大咖加入科技未来！'//中国最大的软冰淇淋产业链供应商//让麻辣有思想
+            // title2: ''
+        };
+    //分享到朋友圈
+    wx.onMenuShareTimeline({
+        title: shareInfo.title, // 分享标题
+        link: '', // 分享链接
+        imgUrl: shareInfo.image, // 分享图标
+        success: function () {
+            // 用户确认分享后执行的回调函数
+            alert("分享成功！");
+            //window.location.href="http://www.dfguoji.com.cn/product/pascucci/index.html?id=12";
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+    //分享给朋友
+    wx.onMenuShareAppMessage({
+        title: shareInfo.title, // 分享标题
+        desc: shareInfo.desc, // 分享描述
+        link: '', // 分享链接
+        imgUrl: shareInfo.image, // 分享图标
+        type: '', // 分享类型,music、video或link，不填默认为link
+        dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+        success: function () {
+            alert("分享成功！");
+            //window.location.href="http://www.dfguoji.com.cn/product/df/index.html?id=12";
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+    wx.onMenuShareQQ({
+        title: shareInfo.title, // 分享标题
+       // desc: "2016，丙申猴年，宜订盟、起基、立业、纳财。", // 分享描述
+        link: '', // 分享链接
+        imgUrl: shareInfo.image, // 分享图标
+        success: function () {
+            // 用户确认分享后执行的回调函数
+            alert("分享成功！");
+            //window.location.href="http://www.dfguoji.com.cn/product/ygsg/index.html?id=12";
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+    wx.onMenuShareWeibo({
+        title: shareInfo.title, // 分享标题
+       // desc: "2016，丙申猴年，宜订盟、起基、立业、纳财。", // 分享描述
+        link: '', // 分享链接
+        imgUrl: shareInfo.image, // 分享图标
+        success: function () {
+            // 用户确认分享后执行的回调函数
+            alert("分享成功！");
+            //window.location.href="http://www.dfguoji.com.cn/product/df/index.html?id=12";
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+    wx.onMenuShareQZone({
+        title: shareInfo.title, // 分享标题
+       // desc: "2016，丙申猴年，宜订盟、起基、立业、纳财。", // 分享描述
+        link: '', // 分享链接
+        imgUrl: shareInfo.image, // 分享图标
+        success: function () {
+            // 用户确认分享后执行的回调函数
+            alert("分享成功！");
+            //window.location.href="http://www.dfguoji.com.cn/product/pascucci/index.html?id=12";
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+});
+</script>
+<script type="text/javascript">
+    function test_btn() {
+      var phone = /^1([38]\d|4[57]|5[0-35-9]|7[06-8]|8[89])\d{8}$/;
+      if($("#name").val()==""){
+        alert("请填写真实姓名");
+        $("#name").focus();
+        return false;
+      }else if($("#tel").val()==""){
+        alert("请填写手机号码");
+        $("#tel").focus();
+        return false;
+      }else if(!phone.test($("#tel").val())){
+        alert("请填写正确的手机号！");
+        $("#tel").focus();
+        return false;
+      }else{
+        var param = {
+        "user_name":$("#name").val(),
+        "tel":$("#tel").val(),
+        "region":$("#region").val(),
+      };
+      $.post("save.php",param,function(){
+        $("#name").val("");
+        $("#tel").val("");
+        $("#region").val("");
+        alert("提交成功！");
+      },"json");
+        }
+    }
+     </script>
+</body>
+</html>
+
